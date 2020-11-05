@@ -6,3 +6,4 @@
 
 -Chức năng lỗi
 Gửi Email Lý do : bị lỗi xampp nên không chỉnh tiếp được.
+Được 1/2 số điểm
