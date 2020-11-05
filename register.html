@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register Page!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<center>
+    <div class="jumbotron text-center p-3 my-3 bg-dark text-white">
+        <h2>Register Page</h2>
+</center>
+<form action="checkRegister.php" method="post">
+    <div class="form-group">
+        <label for="username" style="margin-left: 25px;">User Name:</label>
+        <input type="text" class="form-control" id="username" placeholder="Enter username" name="username" style="width: 75%; margin-left: 25px;" required>
+    </div>
+    <div class="form-group">
+        <label for="password" style="margin-left: 25px;">Password:</label>
+        <input type="password" class="form-control" id="password" placeholder="Enter password" name="password" style="width: 75%; margin-left: 25px;" required>
+    </div>
+    <div class="form-group">
+        <label for="name" style="margin-left: 25px;">Full Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter Full Name" name="name" style="width: 75%; margin-left: 25px;" required>
+    </div>
+    <div class="form-group">
+        <label for="birth" style="margin-left: 25px;">Birth:</label>
+        <input type="datetime-local" class="form-control" id="birth" placeholder="Select Birth" name="birth" style="width: 75%; margin-left: 25px;" required>
+    </div>
+     <div class="form-group">
+        <label for="email" style="margin-left: 25px;">Email:</label>
+        <input type="text" class="form-control" id="email" placeholder="Enter Email" name="email" style="width: 75%; margin-left: 25px;" required>
+    </div>
+     <div class="form-group">
+        <label for="phone" style="margin-left: 25px;">Phone:</label>
+        <input type="text" class="form-control" id="phone" placeholder="Enter Your Phone" name="phone" style="width: 75%; margin-left: 25px;" required>
+    </div>
+    <center>
+        <input type="submit" name="SUBMIT" value="Submit" class="btn btn-primary">
+        <button type="reset" class="btn btn-primary">Reset</button>
+        <td colspan="2"><center><p><a href='Login.php'>Turn Back!</a></p></center></td>
+    </center>
+</form>
+
+</div>
+
+</body>
+</html>
